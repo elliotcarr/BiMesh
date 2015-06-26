@@ -1,9 +1,9 @@
-## BiMesh: Imaged-based meshing of binary mediums
+# BiMesh
 
-``BiMesh`` is a simple MATLAB code for meshing binary mediums. The code reads in a bitmap image of the medium, converts
+`BiMesh` is a simple MATLAB code for meshing binary mediums. The code reads in a bitmap image of the medium, converts
 ## References
 
-If you use ``BiMesh``, we would appreciate that you mention it in your work by citing the following paper:
+If you use `BiMesh`, we would appreciate that you mention it in your work by citing the following paper:
 
 E. J. Carr and I. W. Turner (2014) [Two-scale computational modelling of water 
 flow in unsaturated soils containing irregular-shaped inclusions](http://onlinelibrary.wiley.com/doi/10.1002/nme.4625/abstract).
