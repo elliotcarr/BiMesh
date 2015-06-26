@@ -11,16 +11,16 @@ International Journal for Numerical Methods in Engineering, Volume 98, Issue 3, 
 
 ## Installation
 
-``BiMesh`` can be downloaded from
+`BiMesh` can be downloaded from
 
 https://github.com/elliotcarr/BiMesh/archive/master.zip
 
 After unzipping, you will need to add the directory to the MATLAB path. You can do
 this via the command:
 ```
-addpath(bimeshroot)
+addpath(pathname)
 ```
-where `bimeshroot` is the path to the unzipped directory.
+where `pathname` is the path to the unzipped directory.
 
 ## License
 
