@@ -12,10 +12,10 @@ International Journal for Numerical Methods in Engineering, Volume 98, Issue 3, 
 ## Example
 
 <!--- <img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Fractures.png" width="250px" height="250px"> --->
-<img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/MeshAB.png" width="300px">
-<img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/MeshAB.png" width="300px">
-<img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/MeshA.png" width="300px">
-<img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/MeshB.png" width="300px">
+<img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/Fractures.png" width="350px">
+<img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/MeshAB.png" width="350px">
+<img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/MeshA.png" width="350px">
+<img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/MeshB.png" width="350px">
 
 ## Installation
 
