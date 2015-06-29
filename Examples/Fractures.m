@@ -30,6 +30,9 @@ elements  = mesh.elements;
 subdomain = mesh.subdomain;
 
 figure;
+imshow(image)
+
+figure;
 % colormap([1,0,0; 0,1,0])
 colormap([1,0,0; 1,1,0])
 p = patch('Faces',elements,'Vertices',nodes(:,1:2),'FaceColor','flat');
