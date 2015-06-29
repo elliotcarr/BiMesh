@@ -1,6 +1,7 @@
 # BiMesh
 
-`BiMesh` is a simple MATLAB code for meshing binary mediums. The code reads in a bitmap image of the medium, converts
+`BiMesh` is a simple MATLAB code for meshing binary mediums using Gmsh (http://geuz.org/gmsh/) and image-based techniques. The code reads in an image of the binary domain and identifies the coordinates of the inclusion boundaries, which are then used to define the geometry in GMSH and ultimately mesh the domain.
+
 ## References
 
 If you use `BiMesh`, we would appreciate that you mention it in your work by citing the following paper:
@@ -11,10 +12,12 @@ International Journal for Numerical Methods in Engineering, Volume 98, Issue 3, 
 
 ## Example
 
+Image (.png file) 
+
 <!--- <img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Fractures.png" width="250px" height="250px"> --->
 <img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/Fractures.png" width="280px">
 
-The code reads in an image of the binary domain and then identifies the coordinates of the inclusion boundaries, which are then used to define the geometry and ultimately mesh the domain. The code accomodates the three different options:
+The code accomodates three different options: the full domain, the connected sub-domain only and the inclusion sub-domain only:
 
 <img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/MeshAB.png" width="350px">
 <img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/MeshA.png" width="350px">
