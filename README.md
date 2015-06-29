@@ -11,7 +11,7 @@ International Journal for Numerical Methods in Engineering, Volume 98, Issue 3, 
 
 ## Example
 
-<figure><img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Fractures.png" width="200px" height="200px"></figure>
+<img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Fractures.png" width="250px" height="250px">
 
 Meshing the full domain:
 
