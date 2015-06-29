@@ -1,4 +1,4 @@
-function bimesh(image,fname,r,a,b,option)
+function mesh_geo(image,fname,r,a,b,option)
 % -------------------------------------------------------------------------
 % image_based_meshing.m
 %

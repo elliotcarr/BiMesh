@@ -17,20 +17,17 @@ domain = 'B';             % Domain
 fname  = ['mesh',domain]; % File name of gmsh .geo file
 
 % Generate gmsh .geo file
-bimesh(image,fname,r,width,height,domain);
+mesh_geo(image,fname,r,width,height,domain);
 
 % Call gmsh and mesh the geometry
 fprintf('%% Meshing microscopic domain\n');
 system([gmsh_path,[fname,'.geo -2']]);
 
 % Read gmsh .msh file and create mesh properties
-mesh = read_gmsh(fname);
+mesh      = read_msh(fname);
 nodes     = mesh.nodes;
 elements  = mesh.elements;
 subdomain = mesh.subdomain;
-
-figure;
-imshow(image)
 
 figure;
 % colormap([1,0,0; 0,1,0])

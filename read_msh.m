@@ -1,4 +1,4 @@
-function mesh = read_gmsh(fname)
+function mesh = read_msh(fname)
 
 % Read gmsh .msh file
 fid = fopen([fname,'.msh'], 'r');
