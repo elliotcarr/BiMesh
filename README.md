@@ -12,7 +12,10 @@ International Journal for Numerical Methods in Engineering, Volume 98, Issue 3, 
 ## Example
 
 <!--- <img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Fractures.png" width="250px" height="250px"> --->
-<img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/Fractures.png" width="350px">
+<img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/Fractures.png" width="280px">
+
+The code reads in an image of the binary domain and then identifies the coordinates of the inclusion boundaries, which are then used to define the geometry and ultimately mesh the domain. The code accomodates the three different options:
+
 <img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/MeshAB.png" width="350px">
 <img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/MeshA.png" width="350px">
 <img src="https://github.com/elliotcarr/BiMesh/raw/master/Examples/Figures/MeshB.png" width="350px">
