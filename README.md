@@ -14,11 +14,11 @@ International Journal for Numerical Methods in Engineering, Volume 98, Issue 3, 
 
 See `Example/Fractures.m`
 
-Image of binary medium (.png file) 
+Image of binary medium (.png file): connected sub-domain (light gray) and inclusion sub-domain (dark gray)
 
 <img src="https://github.com/elliotcarr/BiMesh/raw/master/Example/Figures/Fractures.png" width="280px">
 
-The code accomodates three different options: the full domain, the connected sub-domain only and the inclusion sub-domain only:
+The code accomodates three different options: the full domain, the connected sub-domain only and the inclusion sub-domain only
 
 <img src="https://github.com/elliotcarr/BiMesh/raw/master/Example/Figures/MeshAB.png" width="350px">
 <img src="https://github.com/elliotcarr/BiMesh/raw/master/Example/Figures/MeshA.png" width="350px">
