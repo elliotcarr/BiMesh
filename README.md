@@ -1,6 +1,7 @@
 ## Hmesh: 2D image-based meshing of heterogeneous media
 
-`Hmesh` is a simple MATLAB code for meshing two-dimensional heterogeneous media using Gmsh (http://geuz.org/gmsh/) and image-based techniques. The heterogeneous medium is assumed to be comprised of inclusions embedded in a connected sub-domain. The code reads in an image of the binary domain and identifies the coordinates of the inclusion boundaries, which are then used to define the geometry in Gmsh and ultimately mesh the domain.
+`Hmesh` is a simple MATLAB code for meshing two-dimensional heterogeneous media using Gmsh (http://geuz.org/gmsh/) and image-based techniques. 
+<!--- The heterogeneous medium is assumed to be comprised of inclusions embedded in a connected sub-domain. The code reads in an image of the binary domain and identifies the coordinates of the inclusion boundaries, which are then used to define the geometry in Gmsh and ultimately mesh the domain. --->
 
 ## References
 
