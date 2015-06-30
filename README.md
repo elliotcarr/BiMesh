@@ -1,6 +1,6 @@
-## Hmesh: 2D image-based meshing of binary media
+## Hmesh: 2D image-based meshing of heterogeneous media
 
-`Hmesh` is a simple MATLAB code for meshing two-dimensional binary media using Gmsh (http://geuz.org/gmsh/) and image-based techniques. The binary medium is assumed to be comprised of inclusions embedded in a connected sub-domain. The code reads in an image of the binary domain and identifies the coordinates of the inclusion boundaries, which are then used to define the geometry in Gmsh and ultimately mesh the domain.
+`Hmesh` is a simple MATLAB code for meshing two-dimensional heterogeneous media using Gmsh (http://geuz.org/gmsh/) and image-based techniques. The heterogeneous medium is assumed to be comprised of inclusions embedded in a connected sub-domain. The code reads in an image of the binary domain and identifies the coordinates of the inclusion boundaries, which are then used to define the geometry in Gmsh and ultimately mesh the domain.
 
 ## References
 
@@ -14,11 +14,11 @@ International Journal for Numerical Methods in Engineering, Volume 98, Issue 3, 
 
 See `Example/Fractures.m`
 
-Image of binary medium (.png file): connected sub-domain (light gray) and inclusion sub-domain (dark gray)
+Image of binary medium (.png file)<!---: connected sub-domain (light gray) and inclusion sub-domain (dark gray)--->
 
 <img src="https://github.com/elliotcarr/BiMesh/raw/master/Example/Figures/Fractures.png" width="280px">
 
-The code accomodates three different options: the full domain, the connected sub-domain only and the inclusion sub-domain only
+Unstructured meshes: <!--- The code accomodates three different options: the full domain, the connected sub-domain only and the inclusion sub-domain only --->
 
 <img src="https://github.com/elliotcarr/BiMesh/raw/master/Example/Figures/MeshAB.png" width="350px">
 <img src="https://github.com/elliotcarr/BiMesh/raw/master/Example/Figures/MeshA.png" width="350px">
