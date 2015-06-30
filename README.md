@@ -18,19 +18,19 @@ See `Example/Fractures.m`
 <!-- connected sub-domain (light gray) and inclusion sub-domain (dark gray) -->
 Image of binary medium (.png file): 
 
-<img src="https://github.com/elliotcarr/BiMesh/raw/master/Example/Figures/Fractures.png" width="280px">
+<img src="https://github.com/elliotcarr/Hmesh/raw/master/Example/Figures/Fractures.png" width="280px">
 
 Unstructured meshes:
 
-<img src="https://github.com/elliotcarr/BiMesh/raw/master/Example/Figures/MeshAB.png" width="350px">
-<img src="https://github.com/elliotcarr/BiMesh/raw/master/Example/Figures/MeshA.png" width="350px">
-<img src="https://github.com/elliotcarr/BiMesh/raw/master/Example/Figures/MeshB.png" width="350px">
+<img src="https://github.com/elliotcarr/Hmesh/raw/master/Example/Figures/MeshAB.png" width="350px">
+<img src="https://github.com/elliotcarr/Hmesh/raw/master/Example/Figures/MeshA.png" width="350px">
+<img src="https://github.com/elliotcarr/Hmesh/raw/master/Example/Figures/MeshB.png" width="350px">
 
 ## Installation
 
 `Hmesh` can be downloaded from
 
-https://github.com/elliotcarr/BiMesh/archive/master.zip
+https://github.com/elliotcarr/Hmesh/archive/master.zip
 
 After unzipping, you will need to add the directory to the MATLAB path. You can do
 this via the command:
