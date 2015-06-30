@@ -26,7 +26,7 @@ function mesh = read_msh(fname)
 %                         connected sub-domain. subdomain(i) = 2 means that
 %                         element i is located in the inclusion sub-domain.
 %
-%   This code is part of BiMesh.
+%   This code is part of Hmesh.
 %   Copyright (c) 2015, Elliot Carr.
 
 % Read gmsh .msh file

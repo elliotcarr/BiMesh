@@ -1,6 +1,6 @@
 function mesh_geo(image,fname,mref,width,height,subdomain,meshalg)
 % MESH_GEO Peforms image-based meshing of a binary medium and creates the
-%          '.geo' file for use in Gmsh.
+%          .geo file for use in Gmsh.
 %
 %   Usage:
 %   -----------------------------------------------------------------------
@@ -20,7 +20,7 @@ function mesh_geo(image,fname,mref,width,height,subdomain,meshalg)
 %   meshalg     mesh algorithm to use in Gmsh: 'MeshAdapt', 'Delaunay', or
 %               'Frontal'
 %
-%   This code is part of BiMesh.
+%   This code is part of Hmesh.
 %   Copyright (c) 2015, Elliot Carr.
 
 switch meshalg
